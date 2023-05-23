@@ -23,8 +23,6 @@ public class VistaExcelPrincipalController implements Initializable {
     private MenuBar mnOpciones;
     @FXML
     private TableView<String> tblExcel;
-    @FXML
-    private TableColumn<String, String> tblColumn;
 
     /**
      * Initializes the controller class.

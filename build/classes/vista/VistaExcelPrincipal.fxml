@@ -7,7 +7,6 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
-<?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -50,11 +49,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <TableView fx:id="tblExcel" editable="true" layoutY="74.0" prefHeight="440.0" prefWidth="632.0">
-        <columns>
-          <TableColumn fx:id="tblColumn" prefWidth="75.0" text="C1" />
-        </columns>
-      </TableView>
+      <TableView fx:id="tblExcel" editable="true" layoutY="74.0" prefHeight="440.0" prefWidth="632.0" />
       <TabPane layoutY="515.0" prefHeight="27.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Untitled Tab 1" />
