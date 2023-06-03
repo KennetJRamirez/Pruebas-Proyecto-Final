@@ -11,14 +11,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Cargar el archivo FXML
-        Parent root = FXMLLoader.load(getClass().getResource("/vista/VistaExcelPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/vista/VistaHash.fxml"));
 
         // Crear la escena
         Scene scene = new Scene(root);
 
         // Establecer la escena en el escenario principal
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Mi Aplicación JavaFX");
+        primaryStage.setTitle("Excel Proyecto Final");
         primaryStage.show();
     }
 
